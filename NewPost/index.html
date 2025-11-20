@@ -456,6 +456,9 @@
         const notification = document.getElementById('notification');
         const titleInput = document.getElementById('title-input');
 
+        titleInput.value = '';
+        editor.innerHTML = '';
+
         timestampDisplay.textContent = timestamp;
 
         const dateFormatter = new Intl.DateTimeFormat('ru-RU', {
