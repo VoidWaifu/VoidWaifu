@@ -1,7 +1,8 @@
 const posts = [
-    {
-        id: 1763423820,
-        title: "test",
-        description: "test."
-    },
+    
+ {
+        id: 1763600059,
+        title: "Мой первый тестовый пост",
+        description: "Текст"
+ },
 ];
